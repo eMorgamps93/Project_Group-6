@@ -35,7 +35,7 @@ The dataset is defined by the variables below:
 - <u>SQLite</u>: To create database.  
 - <u>Flask</u>: To create web appplication.  
 - <u>os</u>: for file and directory management, and setting user privileges ("permissions").  
-- <u>Pands</u>: used to "tabulate" data (represent observations in "rows" and "columns").  
+- <u>Pandas</u>: used to "tabulate" data (represent observations in "rows" and "columns").  
 - <u>csv</u>: to read the data in csv format and iterate over each row to return the observations in a table.
   
 ***Components of the Project***
