@@ -1,4 +1,4 @@
-***Financial Institutions: A sneak-peak into companies in the Financial Sector operating across the United States***
+![Icon Alt Text] ("C:\Users\Eddie Morgan\Downloads\bank.png")***Financial Institutions: A sneak-peak into companies in the Financial Sector operating across the United States***
 
 ***Completed By:***  
 
