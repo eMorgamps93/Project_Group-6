@@ -1,10 +1,12 @@
 ***Financial Institutions: A sneak-peak into companies in the Financial Sector operating across the United States***
+
 ***Completed By:***  
 
 - Papa Kofi Arhin (W0865495)
 - Timothy Amissah (W0876702)
 - Eddie Morgan (W0876534)
 - Joshua Kwaku Lary (W0866735)
+  
 ***About***  
 
 Our website was created using Flask to display data about companies in the Financial Sector across the U.S.A. The data is stored in an SQLite database under the table name "Company_Details" in the database "Financial_Companies".  
@@ -27,13 +29,15 @@ The dataset is defined by the variables below:
 - <u>Home:</u> an overview of the dataset and its usage. Also has navigation links to the <u>About</u> and <u>Data</u> page.  
 - <u>About:</u> displays information about the <u>variables</u> in the dataset.  
 - <u>Data:</u> tabulates the dataset by their variable names.
+  
 ***Libraries Used***  
 
 - <u>SQLite</u>: To create database.  
 - <u>Flask</u>: To create web appplication.  
 - <u>os</u>: for file and directory management, and setting user privileges ("permissions").  
 - <u>Pands</u>: used to "tabulate" data (represent observations in "rows" and "columns").  
-- <u>csv</u>: to read the data in csv format and iterate over each row to return the observations in a table. 
+- <u>csv</u>: to read the data in csv format and iterate over each row to return the observations in a table.
+  
 ***Components of the Project***
 
 - <u>Database_&_Table_SQL.ipynb:</u> a Jupyter notebook containg code to create the database 'Finance_Companies.db', the table 'Company_Details' and insert data from a csv file to the table.  
@@ -41,6 +45,7 @@ The dataset is defined by the variables below:
 - <u>Financial_Institutions.csv:</u> csv file containing data about financial institutions to import into SQLite.  
 - <u>app_template.py:</u> Flask application containing the route functions for Home, About and Data webpages.  
 - <u>requirements.txt:</u>: text file containing a list of libraries used in creating the database, table, and website.
+  
 ***Working***  
 
 - A database called 'Finance_Companies.db' and a table 'Company_Details' is created in SQLite using Database_&_Table_SQL.pynb script.  
