@@ -50,7 +50,7 @@ The dataset is defined by the variables below:
 
 - A database called 'Finance_Companies.db' and a table 'Company_Details' is created in SQLite using Database_&_Table_SQL.pynb script.  
 - The data from csv file Financial_Institutions.csv is uploaded to the table 'Company_Details', using the same script.  
-- app_template.py is the flask application that imports the libraries SQLite, Flask, Pathlib, and os, to design the webpage and make it visible to users who want to interact with it.  
+- app_template.py is the flask application that imports the libraries SQLite, Flask, Pathlib, csv, and os, to design the webpage and make it visible to users who want to interact with it.  
 
     Three routes are created in app_template.py:  
      - The root route ("/") generates the home.html template.  
