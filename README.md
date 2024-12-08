@@ -52,7 +52,7 @@ The dataset is defined by the variables below:
 - The data from csv file Financial_Institutions.csv is uploaded to the table 'Company_Details', using the same script.  
 - app_template.py is the flask application that imports the libraries SQLite, Flask, Pathlib, and os, to design the webpage and make it visible to users who want to interact with it.  
 
-> Three routes are created in app_template.py:  
->> - The root route ("/") generates the home.html template.  
->> - The /about route renders the about.html template.  
->> - The /data route connects to the SQLite database, retrieves data from 'Company_Details', and renders the data_table.html template with the fetched data.
+  Three routes are created in app_template.py:  
+   - The root route ("/") generates the home.html template.  
+   - The /about route renders the about.html template.  
+   - The /data route connects to the SQLite database, retrieves data from 'Company_Details', and renders the data_table.html template with the fetched data.
